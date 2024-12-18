@@ -9,7 +9,7 @@ This repository contains the code for Unlearnable Clusters Modified for DDP usag
    python preprocess.py --config config/preprocess.yaml -f rename
    ```
 
-2. **Generate Perturbations:** Create cluster-wise perturbations. Note that please set your environment in (`setup()`) if you want to manually change the ```Bash Master Address```.
+2. **Generate Perturbations:** Create cluster-wise perturbations. Note that please set your environment in (`setup()`) if you want to manually change the ```Master Address```.
    ```bash
    python main.py --config config/stage_1.yaml -e {experiment} --stage 1
    ```
